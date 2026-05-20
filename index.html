@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess The Poster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">Guess<span>The</span>Poster</div>
+  <div class="header-score" id="headerScore">
+    Score : <b id="headerScoreVal">0</b>
+  </div>
+</header>
+
+<main>
+
+  <!-- ══ HOME ══ -->
+  <div class="screen active" id="homeScreen">
+    <h1 class="home-heading">Reconnais<br>l'<em>affiche</em>.</h1>
+    <p class="home-sub">Des affiches minimalistes — tape le titre, utilise les indices si besoin.<br></br>Attention à chaque image tu n'as le droit qu'à 2 erreurs, sinon tu passes automatiquement à la prochaine image.</p>
+
+    <p class="categories-label">Choisir une catégorie</p>
+    <div class="cat-grid" id="catGrid"></div>
+    <div class="error-box" id="homeError"></div>
+  </div>
+
+  <!-- ══ GAME ══ -->
+  <div class="screen" id="gameScreen">
+
+    <div class="game-nav">
+      <button class="back-btn" onclick="goHome()">← Catégories</button>
+      <span class="cat-badge" id="catBadge"></span>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-track">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <span class="progress-label" id="progressLabel">0 / 0</span>
+    </div>
+
+    <div class="game-layout">
+
+      <!-- Affiche -->
+      <div class="poster-wrap">
+        <div class="poster-loading" id="posterLoading">
+          <div class="spinner"></div>
+          <span>Chargement</span>
+        </div>
+        <img id="posterImg" src="" alt="Affiche minimaliste" style="opacity:0;" />
+        <div class="poster-year" id="posterYear"></div>
+        <div class="poster-credit" id="posterCredit"></div>
+      </div>
+
+      <!-- Panneau droite -->
+      <div class="game-right">
+        <p class="question-label">Quel est le titre de cette œuvre ?</p>
+
+        <div class="input-wrap">
+          <input
+            type="text"
+            id="answerInput"
+            class="answer-input"
+            placeholder="Votre réponse…"
+            autocomplete="off"
+          />
+          <button class="submit-btn" id="submitBtn" onclick="submitAnswer()">OK</button>
+        </div>
+
+        <div class="feedback" id="feedback">
+          <span class="feedback-icon" id="feedbackIcon"></span>
+          <span id="feedbackText"></span>
+        </div>
+
+        <div class="hints-wrap" id="hintsWrap"></div>
+
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()"></button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ RESULTS ══ -->
+  <div class="screen" id="resultsScreen">
+    <div class="results-wrap">
+      <p class="results-heading" id="resultsCat"></p>
+      <div class="big-score" id="bigScore"></div>
+      <p class="score-denom" id="scoreDenom"></p>
+      <p class="stats-line" id="statsLine"></p>
+      <p class="result-msg" id="resultMsg"></p>
+      <div class="results-actions">
+        <button class="btn-replay" onclick="replayCategory()">Rejouer</button>
+        <button class="btn-home" onclick="goHome()">Catégories</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "titre": "Breaking Bad",
+        "annee": 2008,
+        "image": "images/series/breaking.png",
+        "credit": "designbychad",
+        "realisateur": "Vince Gilligan",
+        "resume": "Un drame criminel culte."
+    },
+    {
+        "id": 2,
+        "titre": "Game of Thrones",
+        "annee": 2011,
+        "image": "images/series/got.png",
+        "credit": "Inconnu",
+        "realisateur": "David Benioff",
+        "resume": "Une grande fresque de fantasy."
+    },
+    {
+        "id": 3,
+        "titre": "Mr.Robot",
+        "annee": 2015,
+        "image": "images/series/robot.png",
+        "credit": "Inconnu",
+        "realisateur": "Sam Esmail",
+        "resume": "Un thriller psychologique et technologique."
+    },
+    {
+        "id": 4,
+        "titre": "Les Sopranos",
+        "annee": 1999,
+        "image": "images/series/sopranos.png",
+        "credit": "Inconnu",
+        "realisateur": "David Chase",
+        "resume": "Un drame mafieux culte."
+    },
+    {
+        "id": 5,
+        "titre": "Dark",
+        "annee": 2017,
+        "image": "images/series/dark.png",
+        "credit": "Inconnu",
+        "realisateur": "Baran bo Odar",
+        "resume": "Une science-fiction mystérieuse et sombre."
+    },
+    {
+        "id": 6,
+        "titre": "Twin Peaks",
+        "annee": 1990,
+        "image": "images/series/twin.png",
+        "credit": "r/nom de la série",
+        "realisateur": "David Lynch",
+        "resume": "Un thriller mystérieux et étrange."
+    },
+    {
+        "id": 7,
+        "titre": "Stranger Things",
+        "annee": 2016,
+        "image": "images/series/stranger.png",
+        "credit": "Paz Caldararo",
+        "realisateur": "Matt Duffer",
+        "resume": "Une aventure fantastique rétro."
+    },
+    {
+        "id": 8,
+        "titre": "Lost",
+        "annee": 2004,
+        "image": "images/series/lost.png",
+        "credit": "Inconnu",
+        "realisateur": "Stephen Williams",
+        "resume": "Un drame mystérieux sur une île."
+    },
+    {
+        "id": 9,
+        "titre": "The Walking Dead",
+        "annee": 2010,
+        "image": "images/series/twd.png",
+        "credit": "LSTTK",
+        "realisateur": "Frank Darabont",
+        "resume": "Une série d'horreur post-apocalyptique."
+    },
+    {
+        "id": 10,
+        "titre": "Avatar : le dernier maître de l'air",
+        "annee": 2005,
+        "image": "images/series/avatar.png",
+        "credit": "r/nom de la série",
+        "realisateur": "Michael Dante DiMartino",
+        "resume": "Une aventure fantastique animée."
+    },
+    {
+        "id": 11,
+        "titre": "Gravity Falls",
+        "annee": 2012,
+        "image": "images/series/gravity.png",
+        "credit": "LSTTK",
+        "realisateur": "Alex Hirsch",
+        "resume": "Une aventure mystérieuse et fantastique."
+    },
+    {
+        "id": 12,
+        "titre": "Rick et Morty",
+        "annee": 2013,
+        "image": "images/series/rick.png",
+        "credit": "Inconnue",
+        "realisateur": "Justin Roiland",
+        "resume": "Une science-fiction animée et déjantée."
+    },
+    {
+        "id": 13,
+        "titre": "Adventure Time",
+        "annee": 2010,
+        "image": "images/series/adventure.png",
+        "credit": "Inconnue",
+        "realisateur": "Pendleton Ward",
+        "resume": "Une aventure fantastique animée."
+    }
+]

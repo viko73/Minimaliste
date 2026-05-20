@@ -1,0 +1,317 @@
+[
+    {
+        "id": 1,
+        "titre": "Le Shining",
+        "annee": 1980,
+        "image": "images/films/the_shining.png",
+        "credit": "marevueweb",
+        "realisateur": "Stanley Kubrick",
+        "resume": "Un classique de l'horreur psychologique."
+    },
+    {
+        "id": 2,
+        "titre": "Les Évadés",
+        "annee": 1994,
+        "image": "images/films/shawshank.png",
+        "credit": "marevueweb",
+        "realisateur": "Frank Darabont",
+        "resume": "Un drame carcéral culte."
+    },
+    {
+        "id": 3,
+        "titre": "Jurassic Park",
+        "annee": 1993,
+        "image": "images/films/jurassic_park.png",
+        "credit": "marevueweb",
+        "realisateur": "Steven Spielberg",
+        "resume": "Une aventure de science-fiction."
+    },
+    {
+        "id": 4,
+        "titre": "Maman, j'ai raté l'avion",
+        "annee": 1990,
+        "image": "images/films/rate_avion.png",
+        "credit": "marevueweb",
+        "realisateur": "Chris Columbus",
+        "resume": "Une comédie familiale culte."
+    },
+    {
+        "id": 5,
+        "titre": "Kill Bill",
+        "annee": 2003,
+        "image": "images/films/kill_bill.png",
+        "credit": "Eder Rengifo",
+        "realisateur": "Quentin Tarantino",
+        "resume": "Un film d'action et de vengeance."
+    },
+    {
+        "id": 6,
+        "titre": "Retour vers le futur",
+        "annee": 1985,
+        "image": "images/films/vers_le_futur.png",
+        "credit": "Michal Krasnopolski",
+        "realisateur": "Robert Zemeckis",
+        "resume": "Une aventure de science-fiction culte."
+    },
+    {
+        "id": 7,
+        "titre": "Alien : le huitième passager",
+        "annee": 1979,
+        "image": "images/films/alien.png",
+        "credit": "byxii",
+        "realisateur": "Ridley Scott",
+        "resume": "Un classique de science-fiction horrifique."
+    },
+    {
+        "id": 8,
+        "titre": "Avatar",
+        "annee": 2009,
+        "image": "images/films/avatar.png",
+        "credit": "viraj nemlekar",
+        "realisateur": "James Cameron",
+        "resume": "Une épopée de science-fiction."
+    },
+    {
+        "id": 9,
+        "titre": "Forrest Gump",
+        "annee": 1994,
+        "image": "images/films/forrest.png",
+        "credit": "Eder Rengifo",
+        "realisateur": "Robert Zemeckis",
+        "resume": "Une comédie dramatique culte."
+    },
+    {
+        "id": 10,
+        "titre": "Seven",
+        "annee": 1995,
+        "image": "images/films/seven.png",
+        "credit": "marevueweb",
+        "realisateur": "David Fincher",
+        "resume": "Un thriller policier sombre."
+    },
+    {
+        "id": 11,
+        "titre": "Usual Suspects",
+        "annee": 1995,
+        "image": "images/films/suspect.png",
+        "credit": "Charlotte Boix",
+        "realisateur": "Bryan Singer",
+        "resume": "Un thriller policier culte."
+    },
+    {
+        "id": 12,
+        "titre": "Titanic",
+        "annee": 1997,
+        "image": "images/films/titanic.png",
+        "credit": "Vespucca Creative",
+        "realisateur": "James Cameron",
+        "resume": "Un drame romantique historique."
+    },
+    {
+        "id": 13,
+        "titre": "Il faut sauver le soldat Ryan",
+        "annee": 1998,
+        "image": "images/films/ryan.png",
+        "credit": "Inconnu",
+        "realisateur": "Steven Spielberg",
+        "resume": "Un film de guerre réaliste."
+    },
+    {
+        "id": 14,
+        "titre": "Les dents de la mer",
+        "annee": 1975,
+        "image": "images/films/jaws.png",
+        "credit": "Chungkong Art",
+        "realisateur": "Steven Spielberg",
+        "resume": "Un thriller horrifique culte."
+    },
+    {
+        "id": 15,
+        "titre": "Gladiateur",
+        "annee": 2000,
+        "image": "images/films/gladiator.png",
+        "credit": "Vince",
+        "realisateur": "Ridley Scott",
+        "resume": "Une fresque historique épique."
+    },
+    {
+        "id": 16,
+        "titre": "2001 : L'Odyssée de l'espace",
+        "annee": 1968,
+        "image": "images/films/2001.png",
+        "credit": "minimalmovieprints",
+        "realisateur": "Stanley Kubrick",
+        "resume": "Une science-fiction philosophique."
+    },
+    {
+        "id": 17,
+        "titre": "Ratatouille",
+        "annee": 2007,
+        "image": "images/films/ratatouille.png",
+        "credit": "marevueweb",
+        "realisateur": "Brad Bird",
+        "resume": "Un film d'animation culinaire."
+    },
+    {
+        "id": 18,
+        "titre": "Cars",
+        "annee": 2006,
+        "image": "images/films/cars.png",
+        "credit": "Ben xue",
+        "realisateur": "John Lasseter",
+        "resume": "Une aventure animée familiale."
+    },
+    {
+        "id": 19,
+        "titre": "Là-haut",
+        "annee": 2009,
+        "image": "images/films/up.png",
+        "credit": "EyeCandyPrints",
+        "realisateur": "Pete Docter",
+        "resume": "Une aventure animée émouvante."
+    },
+    {
+        "id": 20,
+        "titre": "Wall-E",
+        "annee": 2008,
+        "image": "images/films/walle.png",
+        "credit": "Mia Frances",
+        "realisateur": "Andrew Stanton",
+        "resume": "Une romance de science-fiction animée."
+    },
+    {
+        "id": 21,
+        "titre": "Le monde de Nemo",
+        "annee": 2003,
+        "image": "images/films/nemo.png",
+        "credit": "Karl Bembridge",
+        "realisateur": "Andrew Stanton",
+        "resume": "Une aventure animée sous-marine."
+    },
+    {
+        "id": 22,
+        "titre": "Toy Story",
+        "annee": 1995,
+        "image": "images/films/toy_story.png",
+        "credit": "Inconnu",
+        "realisateur": "John Lasseter",
+        "resume": "Une comédie d'animation culte."
+    },
+    {
+        "id": 23,
+        "titre": "Shrek",
+        "annee": 2001,
+        "image": "images/films/shrek.png",
+        "credit": "Inconnu",
+        "realisateur": "Andrew Adamson",
+        "resume": "Une comédie fantastique animée."
+    },
+    {
+        "id": 24,
+        "titre": "Kung Fu Panda",
+        "annee": 2008,
+        "image": "images/films/kfp.png",
+        "credit": "Chungkong Art",
+        "realisateur": "Mark Osborne",
+        "resume": "Une comédie d'arts martiaux animée."
+    },
+    {
+        "id": 25,
+        "titre": "Dragons",
+        "annee": 2010,
+        "image": "images/films/dragons.png",
+        "credit": "ArtPal",
+        "realisateur": "Chris Sanders",
+        "resume": "Une aventure fantastique animée."
+    },
+    {
+        "id": 26,
+        "titre": "Le voyage de Chihiro",
+        "annee": 2001,
+        "image": "images/films/chihiro.png",
+        "credit": "Inconnue",
+        "realisateur": "Hayao Miyazaki",
+        "resume": "Un chef-d'œuvre fantastique animé."
+    },
+    {
+        "id": 27,
+        "titre": "Le roi lion",
+        "annee": 1994,
+        "image": "images/films/lion.png",
+        "credit": "Inconnue",
+        "realisateur": "Roger Allers",
+        "resume": "Un grand classique d'animation."
+    },
+    {
+        "id": 28,
+        "titre": "Coco",
+        "annee": 2017,
+        "image": "images/films/coco.png",
+        "credit": "Yamasoto",
+        "realisateur": "Lee Unkrich",
+        "resume": "Une aventure musicale animée."
+    },
+    {
+        "id": 29,
+        "titre": "Vice-Versa",
+        "annee": 2015,
+        "image": "images/films/viceversa.png",
+        "credit": "Inconnue",
+        "realisateur": "Pete Docter",
+        "resume": "Une comédie animée émotionnelle."
+    },
+    {
+        "id": 30,
+        "titre": "Les Indestructibles",
+        "annee": 2004,
+        "image": "images/films/indestructible.png",
+        "credit": "Inconnue",
+        "realisateur": "Brad Bird",
+        "resume": "Un film de super-héros animé."
+    },
+    {
+        "id": 31,
+        "titre": "Inglorious Basterds",
+        "annee": 2009,
+        "image": "images/films/inglorious.png",
+        "credit": "niklasgaal",
+        "realisateur": "Quentin Tarantino",
+        "resume": "Un film de guerre ensanglanté."
+    },
+    {
+        "id": 32,
+        "titre": "The truman show",
+        "annee": 1998,
+        "image": "images/films/truman.png",
+        "credit": "Chungkong Art",
+        "realisateur": "Peter Weir",
+        "resume": "Une satire dramatique sur une vie filmée."
+    },
+    {
+        "id": 33,
+        "titre": "ça",
+        "annee": 2017,
+        "image": "images/films/it.png",
+        "credit": "Inconnu",
+        "realisateur": "Andrés Muschietti",
+        "resume": "Un film terrifiant, surtout pour les enfants."
+    },
+    {
+        "id": 34,
+        "titre": "L'exorciste",
+        "annee": 1973,
+        "image": "images/films/it.png",
+        "credit": "Inconnu",
+        "realisateur": "Willian Friedkin",
+        "resume": "Un classique de l'horreur surnaturelle."
+    },
+    {
+        "id": 35,
+        "titre": "Indiana Jones",
+        "annee": 1981,
+        "image": "images/films/indiana.png",
+        "credit": "Inconnu",
+        "realisateur": "Steven Spielberg",
+        "resume": "Un film d'aventure avec un personnage iconique."
+    }
+]

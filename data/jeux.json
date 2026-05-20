@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "titre": "Clair Obscur : Expedition 33",
+        "annee": 2025,
+        "image": "images/jeux/expedition.png",
+        "credit": "Timena",
+        "studio": "Sandfall Interactive",
+        "resume": "Un RPG fantastique et mystérieux."
+    },
+    {
+        "id": 2,
+        "titre": "Silent Hill",
+        "annee": 1999,
+        "image": "images/jeux/silent_hill.png",
+        "credit": "Inconnue",
+        "studio": "Konami",
+        "resume": "Un jeu d’horreur psychologique sombre et angoissant dans une ville mystérieuse."
+    },
+    {
+        "id": 3,
+        "titre": "Hollow Knight",
+        "annee": 2017,
+        "image": "images/jeux/hollow.png",
+        "credit": "Inconnue",
+        "studio": "Team Cherry",
+        "resume": "Un metroidvania exigeant et poétique dans un royaume souterrain rempli de secrets."
+    }
+
+]
