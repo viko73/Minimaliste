@@ -25,6 +25,24 @@
         "credit": "Inconnue",
         "studio": "Team Cherry",
         "resume": "Un metroidvania exigeant et poétique dans un royaume souterrain rempli de secrets."
+    },
+    {
+        "id": 4,
+        "titre": "Resident Evil",
+        "annee": 1996,
+        "image": "images/jeux/resident.png",
+        "credit": "Inconnue",
+        "studio": "Capcom",
+        "resume": "Un survival horror culte où les joueurs affrontent zombies et créatures dans un manoir terrifiant."
+    },
+    {
+        "id": 5,
+        "titre": "Sonic",
+        "annee": 1991,
+        "image": "images/jeux/sonic.png",
+        "credit": "Inconnue",
+        "studio": "Sonic Team",
+        "resume": "Un jeu de plateforme rapide et coloré mettant en scène le hérisson bleu le plus célèbre du jeu vidéo."
     }
 
 ]

@@ -107,7 +107,7 @@ async function startGame(cat) {
     if (!data.length) throw new Error('Aucune question dans ce fichier');
 
     currentCat  = cat;
-    questions = shuffle([...data]).slice(0, 10);
+    questions   = shuffle([...data]).slice(0, 10);
     qIndex      = 0;
     score       = 0;
     answered    = false;
@@ -158,15 +158,14 @@ function renderPoster(q) {
   const img = new Image();
 
   img.onload = () => {
-    DOM.posterImg.src           = img.src;
-    DOM.posterImg.style.opacity = '1';
+    DOM.posterImg.src               = img.src;
+    DOM.posterImg.style.opacity     = '1';
     DOM.posterLoading.style.display = 'none';
-
-    DOM.posterYear.textContent   = q.annee;
-    DOM.posterYear.style.display = 'block';
+    DOM.posterYear.textContent      = q.annee;
+    DOM.posterYear.style.display    = 'block';
 
     if (q.credit) {
-      DOM.posterCredit.textContent   = `${q.credit}`;
+      DOM.posterCredit.textContent   = `© ${q.credit}`;
       DOM.posterCredit.style.display = 'block';
     }
   };
@@ -196,6 +195,38 @@ function renderInput() {
 function resetFeedback() {
   DOM.feedback.className = 'feedback';
   DOM.nextBtn.className  = 'next-btn';
+}
+
+/* ══════════════════════════════════════════
+   INDICES — construction selon la catégorie
+   ══════════════════════════════════════════ */
+
+function buildIndices(q) {
+  const indices = [];
+
+  if (currentCat.id === 'jeux') {
+    if (q.studio)  indices.push(`🎮 Studio · ${q.studio}`);
+    if (q.resume)  indices.push(`📖 ${q.resume}`);
+    indices.push(`💡 La réponse était : ${q.titre}`);
+  } else {
+    if (q.realisateur) indices.push(`🎬 Réalisateur · ${q.realisateur}`);
+    if (q.resume)      indices.push(`📖 ${q.resume}`);
+  }
+
+  return indices;
+}
+
+function revealNextHint(indices) {
+  if (hintsRevealed >= indices.length) return;
+
+  const texte = indices[hintsRevealed];
+  hintsRevealed++;
+  totalHints++;
+
+  const el = document.createElement('div');
+  el.className = 'hint-item';
+  el.innerHTML = `<span class="hint-number">${hintsRevealed}</span>${texte}`;
+  DOM.hintsWrap.appendChild(el);
 }
 
 /* ══════════════════════════════════════════
@@ -229,7 +260,7 @@ function submitAnswer() {
 
     const indices = buildIndices(q);
 
-    // Tous les indices déjà révélés → c'était le dernier essai, on perd
+    // Tous les indices déjà révélés → dernier essai épuisé
     if (hintsRevealed >= indices.length) {
       answered = true;
       DOM.answerInput.disabled = true;
@@ -239,38 +270,27 @@ function submitAnswer() {
       return;
     }
 
-    // Sinon on révèle l'indice suivant
+    // Révèle l'indice suivant
     revealNextHint(indices);
 
-    if (hintsRevealed >= indices.length) {
-      // Tous les indices sont maintenant visibles → dernier essai
+    // Pour les jeux : si le dernier indice révélé est l'indice-réponse,
+    // on bloque directement sans attendre une saisie supplémentaire
+    const lastHintIsAnswer = currentCat.id === 'jeux' &&
+                             hintsRevealed >= indices.length;
+
+    if (lastHintIsAnswer) {
+      answered = true;
+      DOM.answerInput.disabled = true;
+      DOM.submitBtn.disabled   = true;
+      showFeedback('wrong', '✗', `Bien essayé !`);
+      showNextBtn();
+    } else if (hintsRevealed >= indices.length) {
+      // Autres catégories : tous les indices visibles → dernier essai
       showFeedback('wrong', '✗', `Raté ! Dernier essai…`);
     } else {
       showFeedback('wrong', '✗', `Raté ! Un indice vient d'apparaître…`);
     }
   }
-}
-
-/* ── Construit les indices depuis les champs du JSON ── */
-function buildIndices(q) {
-  const indices = [];
-  if (q.realisateur) indices.push(`🎬 Réalisateur · ${q.realisateur}`);
-  if (q.resume)      indices.push(`📖 ${q.resume}`);
-  return indices;
-}
-
-/* ── Révèle le prochain indice ── */
-function revealNextHint(indices) {
-  if (hintsRevealed >= indices.length) return;
-
-  const texte = indices[hintsRevealed];
-  hintsRevealed++;
-  totalHints++;
-
-  const el = document.createElement('div');
-  el.className = 'hint-item';
-  el.innerHTML = `<span class="hint-number">${hintsRevealed}</span>${texte}`;
-  DOM.hintsWrap.appendChild(el);
 }
 
 /* ── Normalise : minuscules + sans accents ── */

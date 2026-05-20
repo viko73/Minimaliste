@@ -313,5 +313,23 @@
         "credit": "Inconnu",
         "realisateur": "Steven Spielberg",
         "resume": "Un film d'aventure avec un personnage iconique."
+    },
+    {
+        "id": 36,
+        "titre": "Batman the dark knight",
+        "annee": 1973,
+        "image": "images/films/batman.png",
+        "credit": "Inconnu",
+        "realisateur": "Christopher Nolan",
+        "resume": "Un classique de l'horreur surnaturelle."
+    },
+    {
+        "id": 37,
+        "titre": "Raiponce",
+        "annee": 1981,
+        "image": "images/films/raiponse.png",
+        "credit": "Inconnu",
+        "realisateur": "Nathan Greno",
+        "resume": "Un film d'aventure avec un personnage iconique."
     }
 ]
