@@ -115,5 +115,14 @@
         "credit": "Inconnue",
         "realisateur": "Pendleton Ward",
         "resume": "Une aventure fantastique animée."
+    },
+    {
+        "id": 14,
+        "titre": "Arcane",
+        "annee": 2021,
+        "image": "images/series/arcane.png",
+        "credit": "Chiara",
+        "realisateur": "Pascal Charrue et Arnaud Delord",
+        "resume": "Une série animée spectaculaire inspirée de League of Legends."
     }
 ]

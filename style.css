@@ -53,6 +53,17 @@ header {
 }
 .logo span { color: var(--text); }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo-img {
+  height: 48px;
+  width: auto;
+}
+
 .header-score {
   font-size: 0.8rem;
   letter-spacing: 0.1em;

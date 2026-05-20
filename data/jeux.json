@@ -43,6 +43,33 @@
         "credit": "Inconnue",
         "studio": "Sonic Team",
         "resume": "Un jeu de plateforme rapide et coloré mettant en scène le hérisson bleu le plus célèbre du jeu vidéo."
+    },
+    {
+        "id": 6,
+        "titre": "Dead by Daylight",
+        "annee": 2016,
+        "image": "images/jeux/dbd.png",
+        "credit": "Vecteezy",
+        "studio": "Behaviour Interactive",
+        "resume": "Un jeu d’horreur multijoueur asymétrique où des survivants tentent d’échapper à un tueur impitoyable."
+    },
+    {
+        "id": 7,
+        "titre": "Overwatch",
+        "annee": 2016,
+        "image": "images/jeux/overwatch.png",
+        "credit": "FALLENV3GAS",
+        "studio": "Blizzard Entertainment",
+        "resume": "Un jeu de tir multijoueur en équipe où des héros aux capacités uniques s’affrontent dans des combats dynamiques."
+    },
+    {
+        "id": 8,
+        "titre": "The Last of Us",
+        "annee": 2013,
+        "image": "images/jeux/last.png",
+        "credit": "Inconnue",
+        "studio": "Naughty Dog",
+        "resume": "Un jeu d’action-aventure post-apocalyptique suivant Joel et Ellie dans un monde ravagé par une infection mortelle."
     }
 
 ]
